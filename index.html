@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <script defer src="app.js"></script>
+    <style>
+        header h1 {
+            text-align: center;
+        }
+        main section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <Header>
+        <h1>Stop Watch</h1>
+        <h1 id="display-time"></h1>
+    </Header>
+    <main>
+        <section>
+            <!-- set time  -->
+            <div>
+                <input id="time-input" type="number" placeholder="set time">
+            </div>
+            <!-- buttons -->
+            <div>
+                <button id="start">Start</button>
+                <button id="pause">Pause</button>
+                <button id="reset">Reset</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
